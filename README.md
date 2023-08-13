@@ -5,8 +5,6 @@
 <p align="center" width="100%">
 <img src="cover.png" alt="Smallville" style="width: 80%; min-width: 300px; display: block; margin: auto;">
 </p>
-This repository accompanies our research paper titled "[Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)." It contains our core simulation module for  generative agents—computational agents that simulate believable human behaviors—and their game environment. Below, we document the steps for setting up the simulation environment on your local machine and for replaying the simulation as a demo animation.
-
 该存储库是研究论文《[生成代理：人类行为交互模拟](https://arxiv.org/abs/2304.03442)》的附属内容。它包含了用于生成代理的核心模拟模块——这些计算代理可以模拟出可信的人类行为——以及它们的游戏环境。以下，将记录在您的本地计算机上设置模拟环境以及如何回放模拟作为演示动画的步骤。
 
 ## ⭐QuickStart
@@ -55,6 +53,8 @@ python manage.py
 
 `http://localhost:8000/demo/July1_the_ville_isabella_maria_klaus-step-3-20/2400/300/`
 
+- OK，你已经可以愉快的运行AI小镇了~
+
 ## <img src="https://joonsungpark.s3.amazonaws.com:443/static/assets/characters/profile/Isabella_Rodriguez.png" alt="Generative Isabella">   设置环境步骤
 
 To set up your environment, you will need to generate a `utils.py` file that contains your OpenAI API key and download the necessary packages.
@@ -84,7 +84,7 @@ debug = True
 ```
 请将 `<Your OpenAI API>` 替换为您的 OpenAI API 密钥，将 `<name>` 替换为您的名字。
 
-### Step 2. Install requirements.txt
+### Step 2. 安装依赖
 
 Install everything listed in the `requirements.txt` file (I strongly recommend first setting up a virtualenv as usual). A note on Python version: we tested our environment on Python 3.9.12. 
 
